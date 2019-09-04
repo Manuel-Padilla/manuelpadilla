@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Muli:700i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Muli:400,700i&display=swap");
 
 .loader .inner {
   width: 100%;
@@ -22,6 +22,17 @@ body {
   background-color: #fff;
   letter-spacing: 1px;
   font-family: "Muli", sans-serif;
+  font-weight: 400;
+}
+
+h2,
+h4 {
+  font-weight: 700;
+  font-style: italic;
+}
+
+h4 {
+  margin-top: 10px;
 }
 
 /* All Sections */
@@ -77,26 +88,24 @@ body {
 .titleMessage .heading p {
   color: #fff;
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
-  font-weight: 100;
   margin-bottom: 0.5rem;
+  font-weight: 700;
+  font-style: italic;
 }
 
 .titleMessage .heading .main {
   font-size: 80px;
-  color: #fff;
-  font-family: "Muli", sans-serif;
   line-height: 1;
   letter-spacing: 1px;
 }
 
 .titleMessage .heading .sub {
   font-size: 40px;
-  font-family: "Muli", sans-serif;
 }
 
-.titleMessage .heading .quote {
+/* .titleMessage .heading .quote {
   font-size: 20px;
-}
+} */
 
 /* Navigation Bar */
 
@@ -105,9 +114,10 @@ body {
   padding: 20px 10px;
   z-index: 100;
   width: 100%;
-  font-family: "Muli", sans-serif;
   box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.2);
   font-size: 1.2rem;
+  font-weight: 700;
+  font-style: italic;
 }
 
 #navigation li {
@@ -172,16 +182,16 @@ a.nav-link {
   display: inline-block;
   font-size: 2.5rem;
   font-weight: 700;
+  font-style: italic;
 }
 
 .chart .percent:after {
   content: "%";
   font-weight: 700;
+  font-style: italic;
 }
 
-h4 {
-  margin-top: 10px;
-}
+/* Stats Section */
 
 .squareItem {
   margin-top: 30px;
@@ -213,16 +223,16 @@ h4 {
   left: 0px;
 }
 
-.squareContent h2 {
+.squareContent .counter {
   font-size: 56px;
   margin-bottom: 10px;
-  font-weight: 400;
   color: #46b4eb;
 }
 
-.squareContent h3 {
+.squareContent p {
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 700;
+  font-style: italic;
   margin: 0;
 }
 
@@ -246,6 +256,8 @@ h4 {
   margin: 20px 10px 0px;
   border: 1px solid #fff;
   border-radius: 2px;
+  font-weight: 700;
+  font-style: italic;
 }
 
 .contactButton:hover {
@@ -268,6 +280,8 @@ h4 {
 .filter {
   text-align: center;
   width: 100%;
+  font-weight: 700;
+  font-style: italic;
 }
 
 .filter a {
@@ -406,6 +420,8 @@ h4 {
   font-size: 1rem;
   opacity: 0.5;
   padding-top: 10px;
+  font-weight: 700;
+  font-style: italic;
 }
 
 .icon {
