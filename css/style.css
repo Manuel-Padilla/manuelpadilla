@@ -148,6 +148,11 @@ a.nav-link {
   margin-right: auto;
 }
 
+.section .taken {
+  color: #fff;
+  z-index: 0;
+}
+
 /* Skills Section */
 
 /* https://flatuicolors.com/ */
@@ -157,8 +162,12 @@ a.nav-link {
   color: #fff;
 }
 
-.owl-dots {
-  padding: 15px;
+.owl-carousel {
+  padding-bottom: 25px;
+}
+
+div.owl-dots {
+  display: none;
 }
 
 .skillsSection p {
@@ -422,6 +431,20 @@ a.nav-link {
   -o-transform: scale(1.05, 1.05);
   -ms-transform: scale(1.05, 1.05);
   transform: scale(1.05, 1.05);
+}
+
+div.fancybox-caption__body {
+  width: 700px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+ul.items p {
+  text-align: center;
+  margin-top: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  font-style: italic;
 }
 
 /* Copyright Section */
