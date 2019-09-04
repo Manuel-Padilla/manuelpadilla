@@ -39,7 +39,7 @@ $(document).ready(() => {
       480: {
         items: 2
       },
-      768: {
+      938: {
         items: 3
       },
       938: {
@@ -50,40 +50,40 @@ $(document).ready(() => {
 
   // https://github.com/rendro/easy-pie-chart
 
-  var skillsTopOffset = $(".skillsSection").offset().top;
-  var statsTopOffset = $(".statsSection").offset().top;
-  var countUpFinished = false;
+  // var skillsTopOffset = $(".skillsSection").offset().top;
+  // var statsTopOffset = $(".statsSection").offset().top;
+  // var countUpFinished = false;
 
-  $(window).scroll(function() {
-    if (window.pageYOffset > skillsTopOffset - $(window).height() + 200) {
-      $(".chart").easyPieChart({
-        easing: "easeInOut",
-        barColor: "#fff",
-        trackColor: false,
-        scaleColor: false,
-        lineWidth: 7,
-        size: 152,
-        onStep: function(from, to, percent) {
-          $(this.el)
-            .find(".percent")
-            .text(Math.round(percent));
-        }
-      });
-    }
+  // $(window).scroll(function() {
+  //   if (window.pageYOffset > skillsTopOffset - $(window).height() + 200) {
+  //     $(".chart").easyPieChart({
+  //       easing: "easeInOut",
+  //       barColor: "#fff",
+  //       trackColor: false,
+  //       scaleColor: false,
+  //       lineWidth: 7,
+  //       size: 152,
+  //       onStep: function(from, to, percent) {
+  //         $(this.el)
+  //           .find(".percent")
+  //           .text(Math.round(percent));
+  //       }
+  //     });
+  //   }
 
-    if (
-      !countUpFinished &&
-      window.pageYOffset > statsTopOffset - $(window).height() + 200
-    ) {
-      $(".counter").each(function() {
-        var element = $(this);
-        var endVal = parseInt(element.text());
+  //   if (
+  //     !countUpFinished &&
+  //     window.pageYOffset > statsTopOffset - $(window).height() + 200
+  //   ) {
+  //     $(".counter").each(function() {
+  //       var element = $(this);
+  //       var endVal = parseInt(element.text());
 
-        element.countup(endVal);
-      });
-      countUpFinished = true;
-    }
-  });
+  //       element.countup(endVal);
+  //     });
+  //     countUpFinished = true;
+  //   }
+  // });
 
   $("[data-fancybox]").fancybox();
 
