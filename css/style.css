@@ -103,11 +103,19 @@ h4 {
   font-size: 40px;
 }
 
+.titleMessage img {
+  height: 125px;
+}
+
 /* .titleMessage .heading .quote {
   font-size: 20px;
 } */
 
 /* Navigation Bar */
+a.nav-link img {
+  height: 70px;
+  padding: 0;
+}
 
 #navigation {
   background-color: #46b4eb;
@@ -124,8 +132,14 @@ h4 {
   padding: 0 10px;
 }
 
+a.nav-link.logo {
+  padding: 0px;
+}
+
 a.nav-link {
   color: #fff;
+  padding: 0px;
+  padding-top: 15px;
 }
 
 .navbar-toggler-icon {
