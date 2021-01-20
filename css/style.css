@@ -38,7 +38,7 @@ h4 {
 /* All Sections */
 
 .section {
-  padding: 100px 0;
+  padding: 150px 0;
 }
 
 /* Slides Section */
@@ -162,13 +162,21 @@ a.nav-link {
   margin-right: auto;
 }
 
+/* Certification section */
+.certSection {
+  background-color: #46b4eb;
+  color: #fff;
+}
+
+.cert_list ul li a {
+  color: #fff;
+}
+
 /* Skills Section */
 
 /* https://flatuicolors.com/ */
-.skillsSection,
-.contactSection {
-  background-color: #46b4eb;
-  color: #fff;
+.skillsSection {
+  color: #46b4eb;
 }
 
 .owl-carousel {
@@ -194,7 +202,13 @@ div.owl-dots {
   margin-left: 10px;
 }
 
-.chart {
+.skill_image {
+  align-items: center;
+  height: 65px;
+  width: 65px;
+}
+
+/* .chart {
   position: relative;
   width: 152px;
   height: 152px;
@@ -221,12 +235,12 @@ div.owl-dots {
   content: "%";
   font-weight: 700;
   font-style: italic;
-}
+} */
 
 /* Stats Section */
-.statsSection {
+/* .statsSection {
   padding: 50px 0;
-}
+} */
 /* 
 .squareItem {
   margin-top: 30px;
@@ -283,6 +297,10 @@ div.owl-dots {
 } */
 
 /* Contact Section */
+.contactSection {
+  background-color: #46b4eb;
+  color: #fff;
+}
 
 .contactButton {
   color: #fff;
