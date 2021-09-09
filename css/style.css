@@ -100,16 +100,16 @@ h4 {
 }
 
 .titleMessage .heading .sub {
-  font-size: 40px;
+  font-size: 3rem;
 }
 
 .titleMessage img {
   height: 125px;
 }
 
-/* .titleMessage .heading .quote {
-  font-size: 20px;
-} */
+.titleMessage .heading .quote {
+  font-size: 3rem;
+}
 
 /* Navigation Bar */
 a.nav-link img {
@@ -162,21 +162,27 @@ a.nav-link {
   margin-right: auto;
 }
 
+#about h4 {
+  color: #46b4eb;
+  margin-top: 20px;
+}
+
 /* Certification section */
-.certSection {
+/* .certSection {
   background-color: #46b4eb;
   color: #fff;
 }
 
 .cert_list ul li a {
   color: #fff;
-}
+} */
 
 /* Skills Section */
 
 /* https://flatuicolors.com/ */
 .skillsSection {
-  color: #46b4eb;
+  background-color: #46b4eb;
+  color: #fff
 }
 
 .owl-carousel {
@@ -298,16 +304,15 @@ div.owl-dots {
 
 /* Contact Section */
 .contactSection {
-  background-color: #46b4eb;
-  color: #fff;
+  color: #46b4eb;
 }
 
 .contactButton {
-  color: #fff;
+  color: #46b4eb;
   padding: 15px 20px;
   display: inline-block;
   margin: 20px 10px 0px;
-  border: 1px solid #fff;
+  border: 1px solid #46b4eb;
   border-radius: 2px;
   font-weight: 700;
   font-style: italic;
@@ -315,15 +320,21 @@ div.owl-dots {
 
 .contactButton:hover {
   text-decoration: none;
-  color: #46b4eb;
-  background-color: #fff;
+  color: #fff;
+  background-color: #46b4eb;
 }
 
 /* Portfolio Section */
+#portfolio {
+  background-color: #46b4eb;
+  color: #fff;
+}
+
 .section .heading {
   text-align: center;
   padding-bottom: 40px;
   width: 100%;
+  color: #fff;
 }
 
 #filters {
@@ -338,16 +349,16 @@ div.owl-dots {
 }
 
 .filter a {
-  color: #46b4eb;
-  border: 1px solid #46b4eb;
+  color: #fff;
+  border: 1px solid #fff;
   padding: 15px 20px;
   display: block;
   text-decoration: none;
 }
 
 .filter a:hover {
-  background-color: #46b4eb;
-  color: #fff;
+  background-color: #fff;
+  color: #46b4eb;
 }
 
 .filter li {
@@ -358,7 +369,7 @@ div.owl-dots {
 .filter .current {
   color: #fff;
   background-color: #46b4eb;
-  border-color: #46b4eb;
+  border: 1px solid #fff;
 }
 
 .items {
@@ -398,7 +409,7 @@ div.owl-dots {
 }
 
 .items .icons i {
-  color: #fff;
+  color: #46b4eb;
   font-size: 20px;
   margin-top: 9px;
 }
@@ -406,7 +417,7 @@ div.owl-dots {
 .items a {
   width: 40px;
   height: 40px;
-  background-color: #46b4eb;
+  background-color: #fff;
   position: relative;
   display: inline-block;
 
