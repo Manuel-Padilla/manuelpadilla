@@ -1,5 +1,5 @@
-$(window).on("load", function() {
-  $(".loader .inner").fadeOut(500, function() {
+$(window).on("load", function () {
+  $(".loader .inner").fadeOut(500, function () {
     $(".loader").fadeOut(750);
   });
 
@@ -20,13 +20,13 @@ $(document).ready(() => {
     pagination: false
   });
 
-  // var typed = new Typed(".typed", {
-  //   strings: ["Digital Marketer", "Web Developer"],
-  //   typeSpeed: 40,
-  //   loop: true,
-  //   startDelay: 1000,
-  //   showCursor: false
-  // });
+  var typed = new Typed(".typed", {
+    strings: ["Front-End Developer", "Graphic Designer"],
+    typeSpeed: 50,
+    loop: true,
+    startDelay: 500,
+    showCursor: false
+  });
 
   // https://owlcarousel2.github.io/OwlCarousel2/demos/basic.html
   $(".owl-carousel").owlCarousel({
@@ -87,7 +87,7 @@ $(document).ready(() => {
 
   $("[data-fancybox]").fancybox();
 
-  $("#filters a").click(function() {
+  $("#filters a").click(function () {
     $("#filters .current").removeClass("current");
     $(this).addClass("current");
 
@@ -105,7 +105,7 @@ $(document).ready(() => {
     return false;
   });
 
-  $("#navigation li a").click(function(e) {
+  $("#navigation li a").click(function (e) {
     e.preventDefault();
 
     var targetElement = $(this).attr("href");
@@ -125,7 +125,7 @@ $(document).ready(() => {
       body.css("padding-top", nav.outerHeight() + "px");
       body.addClass("fixedNav");
     } else {
-      body.css("padding-top", 0);
+      body.css("padding-top", 5);
       body.removeClass("fixedNav");
     }
   }
