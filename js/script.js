@@ -29,7 +29,7 @@ $(window).on("load", function () {
 //   });
 
 // https://owlcarousel2.github.io/OwlCarousel2/demos/basic.html
-$(".owl-carousel").owlCarousel({
+$('.owl-carousel').owlCarousel({
   loop: true,
   items: 4,
   responsive: {
