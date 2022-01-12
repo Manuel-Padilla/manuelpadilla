@@ -13,22 +13,6 @@ $(window).on("load", function () {
   });
 });
 
-// $(document).ready(() => {
-//   $("#slides").superslides({
-//     animation: "fade",
-//     play: 5000,
-//     pagination: false
-//   });
-
-//   var typed = new Typed(".typed", {
-//     strings: ["Front-End Developer", "Graphic Designer"],
-//     typeSpeed: 50,
-//     loop: true,
-//     startDelay: 500,
-//     showCursor: false
-//   });
-
-
 // https://github.com/rendro/easy-pie-chart
 
 var skillsTopOffset = $(".skillsSection").offset().top;
