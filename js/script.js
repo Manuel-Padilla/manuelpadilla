@@ -125,7 +125,7 @@ function stickyNavigation() {
     body.css("padding-top", nav.outerHeight() + "px");
     body.addClass("fixedNav");
   } else {
-    body.css("padding-top", 0);
+    body.css("padding-top", 5);
     body.removeClass("fixedNav");
   }
 };
