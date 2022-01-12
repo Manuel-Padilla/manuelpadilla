@@ -128,5 +128,5 @@ function stickyNavigation() {
     body.css("padding-top", 0);
     body.removeClass("fixedNav");
   }
-}
-});
+};
+
